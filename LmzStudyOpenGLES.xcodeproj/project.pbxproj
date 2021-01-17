@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		EE0DA0FF25551E7E0009BE35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0DA0FD25551E7E0009BE35 /* ViewController.m */; };
 		EE0DA10025551E7E0009BE35 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE0DA0FE25551E7E0009BE35 /* ViewController.xib */; };
-		EE64CC8425B147AF00B9F195 /* DrawShapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE64CC8325B147AF00B9F195 /* DrawShapeViewController.m */; };
+		EE64CC8425B147AF00B9F195 /* ShapeMoveViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE64CC8325B147AF00B9F195 /* ShapeMoveViewController.mm */; };
 		EE7146C2255393DA005A5052 /* dolaameng.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE7146C1255393DA005A5052 /* dolaameng.jpg */; };
 		EE7146CE25539B68005A5052 /* OpenGLImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7146CD25539B68005A5052 /* OpenGLImageViewController.m */; };
 		EE7146EC2553ABF2005A5052 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = EE7146EA2553ABF2005A5052 /* Shader.fsh */; };
 		EE7146ED2553ABF2005A5052 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = EE7146EB2553ABF2005A5052 /* Shader.vsh */; };
 		EE7146FD2553F162005A5052 /* OGImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7146FC2553F162005A5052 /* OGImageView.m */; };
+		EEA652AE25B41EFF0074D724 /* BasicShapeViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EEA652AD25B41EFF0074D724 /* BasicShapeViewController.mm */; };
 		EEAF6AA72552A3F3004F5DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAF6AA62552A3F3004F5DEB /* AppDelegate.m */; };
 		EEAF6AB22552A3FB004F5DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAF6AB12552A3FB004F5DEB /* Assets.xcassets */; };
 		EEAF6AB52552A3FB004F5DEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAF6AB32552A3FB004F5DEB /* LaunchScreen.storyboard */; };
@@ -46,8 +47,8 @@
 		EE0DA0FC25551E7E0009BE35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EE0DA0FD25551E7E0009BE35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE0DA0FE25551E7E0009BE35 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		EE64CC8225B147AF00B9F195 /* DrawShapeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawShapeViewController.h; sourceTree = "<group>"; };
-		EE64CC8325B147AF00B9F195 /* DrawShapeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawShapeViewController.m; sourceTree = "<group>"; };
+		EE64CC8225B147AF00B9F195 /* ShapeMoveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeMoveViewController.h; sourceTree = "<group>"; };
+		EE64CC8325B147AF00B9F195 /* ShapeMoveViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ShapeMoveViewController.mm; sourceTree = "<group>"; };
 		EE7146C1255393DA005A5052 /* dolaameng.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dolaameng.jpg; sourceTree = "<group>"; };
 		EE7146CC25539B68005A5052 /* OpenGLImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLImageViewController.h; sourceTree = "<group>"; };
 		EE7146CD25539B68005A5052 /* OpenGLImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLImageViewController.m; sourceTree = "<group>"; };
@@ -55,6 +56,8 @@
 		EE7146EB2553ABF2005A5052 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
 		EE7146FB2553F162005A5052 /* OGImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OGImageView.h; sourceTree = "<group>"; };
 		EE7146FC2553F162005A5052 /* OGImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OGImageView.m; sourceTree = "<group>"; };
+		EEA652AC25B41EFF0074D724 /* BasicShapeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicShapeViewController.h; sourceTree = "<group>"; };
+		EEA652AD25B41EFF0074D724 /* BasicShapeViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BasicShapeViewController.mm; sourceTree = "<group>"; };
 		EEAF6AA22552A3F3004F5DEB /* LmzStudyOpenGLES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LmzStudyOpenGLES.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEAF6AA52552A3F3004F5DEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EEAF6AA62552A3F3004F5DEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -124,8 +127,10 @@
 		EE64CC8125B1478E00B9F195 /* 绘制基本图形 */ = {
 			isa = PBXGroup;
 			children = (
-				EE64CC8225B147AF00B9F195 /* DrawShapeViewController.h */,
-				EE64CC8325B147AF00B9F195 /* DrawShapeViewController.m */,
+				EE64CC8225B147AF00B9F195 /* ShapeMoveViewController.h */,
+				EE64CC8325B147AF00B9F195 /* ShapeMoveViewController.mm */,
+				EEA652AC25B41EFF0074D724 /* BasicShapeViewController.h */,
+				EEA652AD25B41EFF0074D724 /* BasicShapeViewController.mm */,
 			);
 			path = "绘制基本图形";
 			sourceTree = "<group>";
@@ -331,11 +336,12 @@
 			files = (
 				EE0DA0FF25551E7E0009BE35 /* ViewController.m in Sources */,
 				EE7146CE25539B68005A5052 /* OpenGLImageViewController.m in Sources */,
-				EE64CC8425B147AF00B9F195 /* DrawShapeViewController.m in Sources */,
+				EE64CC8425B147AF00B9F195 /* ShapeMoveViewController.mm in Sources */,
 				EE7146FD2553F162005A5052 /* OGImageView.m in Sources */,
 				EEAF6AA72552A3F3004F5DEB /* AppDelegate.m in Sources */,
 				EEAF6AB82552A3FB004F5DEB /* main.m in Sources */,
 				EEAF6AE22552A4D6004F5DEB /* GLKImageViewController.m in Sources */,
+				EEA652AE25B41EFF0074D724 /* BasicShapeViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

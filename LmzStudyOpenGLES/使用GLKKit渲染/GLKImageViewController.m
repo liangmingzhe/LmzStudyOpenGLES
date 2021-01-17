@@ -138,7 +138,8 @@
     basicEffect = [[GLKBaseEffect alloc] init];
     basicEffect.texture2d0.enabled = GL_TRUE;
     basicEffect.texture2d0.name = textureInfo.name;
-    
+
+
 }
 
 - (void)glkView:(GLKView *)view drawInRect:(CGRect)rect {

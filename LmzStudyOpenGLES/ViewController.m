@@ -31,10 +31,17 @@
             @"param":@{}
         },
         @{
-            @"description":@"绘制基本图形",
-            @"class":@"DrawShapeViewController",
+            @"description":@"图形控制",
+            @"class":@"ShapeMoveViewController",
+            @"param":@{}
+        },
+        @{
+            @"description":@"基本图形",
+            @"class":@"BasicShapeViewController",
             @"param":@{}
         }
+        
+        
     ];
 }
 
