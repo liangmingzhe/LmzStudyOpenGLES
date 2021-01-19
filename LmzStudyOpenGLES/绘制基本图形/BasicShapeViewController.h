@@ -10,6 +10,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BasicShapeViewController : GLKViewController
+@property (nonatomic,strong)GLKBaseEffect   *basicEffect;
+@property (nonatomic,strong)GLKTextureInfo  *sphereTextureInfo;
 
 @end
 

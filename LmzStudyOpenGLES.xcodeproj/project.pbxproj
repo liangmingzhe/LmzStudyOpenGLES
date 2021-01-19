@@ -15,6 +15,7 @@
 		EE7146EC2553ABF2005A5052 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = EE7146EA2553ABF2005A5052 /* Shader.fsh */; };
 		EE7146ED2553ABF2005A5052 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = EE7146EB2553ABF2005A5052 /* Shader.vsh */; };
 		EE7146FD2553F162005A5052 /* OGImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7146FC2553F162005A5052 /* OGImageView.m */; };
+		EE82E62325B6A92C003A54A0 /* Earth512x256.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE82E62225B6A92C003A54A0 /* Earth512x256.jpg */; };
 		EEA652AE25B41EFF0074D724 /* BasicShapeViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EEA652AD25B41EFF0074D724 /* BasicShapeViewController.mm */; };
 		EEAF6AA72552A3F3004F5DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAF6AA62552A3F3004F5DEB /* AppDelegate.m */; };
 		EEAF6AB22552A3FB004F5DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAF6AB12552A3FB004F5DEB /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		EE0DA0FC25551E7E0009BE35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EE0DA0FD25551E7E0009BE35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE0DA0FE25551E7E0009BE35 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		EE32BE3525B6AFAB0037D36F /* cube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cube.h; sourceTree = "<group>"; };
 		EE64CC8225B147AF00B9F195 /* ShapeMoveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeMoveViewController.h; sourceTree = "<group>"; };
 		EE64CC8325B147AF00B9F195 /* ShapeMoveViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ShapeMoveViewController.mm; sourceTree = "<group>"; };
 		EE7146C1255393DA005A5052 /* dolaameng.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dolaameng.jpg; sourceTree = "<group>"; };
@@ -56,6 +58,8 @@
 		EE7146EB2553ABF2005A5052 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
 		EE7146FB2553F162005A5052 /* OGImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OGImageView.h; sourceTree = "<group>"; };
 		EE7146FC2553F162005A5052 /* OGImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OGImageView.m; sourceTree = "<group>"; };
+		EE82E61A25B6A575003A54A0 /* sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		EE82E62225B6A92C003A54A0 /* Earth512x256.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth512x256.jpg; sourceTree = "<group>"; };
 		EEA652AC25B41EFF0074D724 /* BasicShapeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicShapeViewController.h; sourceTree = "<group>"; };
 		EEA652AD25B41EFF0074D724 /* BasicShapeViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BasicShapeViewController.mm; sourceTree = "<group>"; };
 		EEAF6AA22552A3F3004F5DEB /* LmzStudyOpenGLES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LmzStudyOpenGLES.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +131,8 @@
 		EE64CC8125B1478E00B9F195 /* 绘制基本图形 */ = {
 			isa = PBXGroup;
 			children = (
+				EE82E61A25B6A575003A54A0 /* sphere.h */,
+				EE32BE3525B6AFAB0037D36F /* cube.h */,
 				EE64CC8225B147AF00B9F195 /* ShapeMoveViewController.h */,
 				EE64CC8325B147AF00B9F195 /* ShapeMoveViewController.mm */,
 				EEA652AC25B41EFF0074D724 /* BasicShapeViewController.h */,
@@ -160,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				EE7146C1255393DA005A5052 /* dolaameng.jpg */,
+				EE82E62225B6A92C003A54A0 /* Earth512x256.jpg */,
 				EEAF6AA52552A3F3004F5DEB /* AppDelegate.h */,
 				EEAF6AA62552A3F3004F5DEB /* AppDelegate.m */,
 				EE0DA0FC25551E7E0009BE35 /* ViewController.h */,
@@ -307,6 +314,7 @@
 				EEAF6AB52552A3FB004F5DEB /* LaunchScreen.storyboard in Resources */,
 				EE0DA10025551E7E0009BE35 /* ViewController.xib in Resources */,
 				EEAF6AB22552A3FB004F5DEB /* Assets.xcassets in Resources */,
+				EE82E62325B6A92C003A54A0 /* Earth512x256.jpg in Resources */,
 				EE7146ED2553ABF2005A5052 /* Shader.vsh in Resources */,
 				EE7146C2255393DA005A5052 /* dolaameng.jpg in Resources */,
 				EE7146EC2553ABF2005A5052 /* Shader.fsh in Resources */,

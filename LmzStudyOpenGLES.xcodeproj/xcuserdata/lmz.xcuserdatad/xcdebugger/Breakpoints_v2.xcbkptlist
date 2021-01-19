@@ -7,16 +7,44 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9791A7E8-E310-46B4-9A0F-783B4AC774DA"
+            uuid = "C19BFAA6-635A-4C54-977E-1D6ECEA589CA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LmzStudyOpenGLES/&#x7ed8;&#x5236;&#x57fa;&#x672c;&#x56fe;&#x5f62;/BasicShapeViewController.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "278"
+            endingLineNumber = "278"
+            landmarkName = "-updateModelView"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "0E167E12-4A5C-4E42-A761-B9DD32F44873"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "OGL_demo_display_picture/OGImageView.m"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0653056-9DFF-4DA7-A012-47ECEBE380E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LmzStudyOpenGLES/&#x7ed8;&#x5236;&#x57fa;&#x672c;&#x56fe;&#x5f62;/BasicShapeViewController.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
-            landmarkName = "-initContext"
+            startingLineNumber = "292"
+            endingLineNumber = "292"
+            landmarkName = "-glkView:drawInRect:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
